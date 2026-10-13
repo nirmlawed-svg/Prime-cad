@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import logoImg from './assets/images/prime_cabs_logo_1791874924583.jpg';
+import ertigaImg from './assets/images/ertiga_car_photo_1791875394239.jpg';
+import swiftDzireImg from './assets/images/swift_dzire_car_photo_1791875587660.jpg';
+import auraImg from './assets/images/aura_car_photo_1791875819108.jpg';
+import innovaImg from './assets/images/innova_car_photo_1791875817849.jpg';
 import { 
   Phone, 
   MessageSquare, 
@@ -78,25 +82,25 @@ export default function App() {
       category: "MUV / 7-Seater",
       name: "ERTIGA",
       desc: "Spacious 7-seater MUV ideal for family outings, airport luggage space, group travel, and comfortable outstation trips.",
-      image: "/Public/1791872303102.png"
+      image: ertigaImg
     },
     {
       category: "Sedan / City Cab",
       name: "SWIFT DIZER",
       desc: "Reliable and comfortable sedan perfect for everyday city commuting, airport transfers, and local Navi Mumbai travel.",
-      image: "/Public/1791871812646.png"
+      image: swiftDzireImg
     },
     {
       category: "Compact Sedan",
       name: "AURA",
       desc: "Sleek and economical compact sedan offering smooth rides for business appointments, shopping, and point-to-point travel.",
-      image: "/Public/1791874328338.png"
+      image: auraImg
     },
     {
       category: "Premium SUV",
       name: "INNOVA",
       desc: "Top-tier premium comfort, luxurious seating, and maximum luggage capacity for long-distance outstation and family tours.",
-      image: "/Public/1791872303102.png"
+      image: innovaImg
     }
   ];
 
